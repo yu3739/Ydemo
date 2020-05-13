@@ -66,7 +66,7 @@ public class one {
     }*/
 
 
-      int age=22;
+      /*int age=22;
         if (age >60) {
             System.out.println("老年");
         }
@@ -76,6 +76,23 @@ public class one {
 
         else{
             System.out.println("童年");
+        }*/
+
+      int score =99;
+      String sex="女";
+        if (score>=90) {
+            if(sex.equals("女")) {
+                System.out.println("进入女子决赛");
+            }
+             else{
+                    System.out.println("男子决赛");
+             }
+        }
+        else{
+            System.out.println("分数太低");
+        }
+
+
         }
     }
-}
+
