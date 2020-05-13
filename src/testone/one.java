@@ -73,9 +73,7 @@ public class one {
         else if (age>40){
             System.out.println("中年");
         }
-        else if (age>18){
-            System.out.println("少年");
-        }
+
         else{
             System.out.println("童年");
         }
