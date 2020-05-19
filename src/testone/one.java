@@ -237,18 +237,156 @@ public class one {
         }
 */
 
-
-        int chengji = 53;
+        /*Scanner shuru=new Scanner(System.in);
+        System.out.println("输入成绩");
+        int chengji = shuru.nextInt();
         int cishu = 0;
         System.out.println("加分前成绩"+chengji);
-       while(chengji <60) {
+       while(chengji <=60) {
            chengji++;
-         cishu++;
+           cishu++;
+           *//*System.out.println("加分后成绩"+chengji);
+           System.out.println(cishu);*//*
         }
         System.out.println("加分后成绩"+chengji);
-        System.out.println(cishu);
+        System.out.println(cishu);*/
+
+
+
+      /*  int banji=3;
+        int student=4;
+        int sum=0;
+        int avg=0;
+        Scanner input=new Scanner(System.in);
+        for (int i = 1; i <=banji ; i++) {
+
+            //每次循环完一个班级就把总分清0，否则就会继续算到下一个班级的总分里去
+            sum=0;
+            System.out.println("输入班级号");
+            for (int j = 1; j <=student ; j++) {
+                System.out.println("输入第"+j+"个学生成绩");
+                int score=input.nextInt();
+                //算出当前班级所有学生分数的总和
+                sum=sum+score;
+            }
+            //当初当前班级的学生平均分
+            avg=sum/4;
+            System.out.println("平均分"+avg);
+        }*/
+
+     /*  String[] hobbys={"ddd","fff","ssss"};
+        for (int i = 0; i < hobbys.length ; i++) {
+            System.out.println(hobbys[i]);
+        }*/
+
+
+    /* int[] num={61,23,4,74,13,148,20};
+     int maxnum=num[0];
+     int mixnum=num[0];
+     double sum=0;
+     double avg=0;
+        for (int i = 0; i <num.length ; i++) {
+            //假如当前数字比最小值还小，就替换mixnum的值
+            if (num[i] <mixnum) {
+                mixnum=num[i];
+            }
+            //假如当前数字比最大值还大，就替换maxnum的值
+            if (num[i] >maxnum) {
+                maxnum=num[i];
+            }
+            //循环数组中每个数字时，算出和
+            sum=sum+num[i];
+        }
+        //算数组平均数，除以整个数组的长度
+     avg=sum/num.length;
+        System.out.println("最小值"+mixnum);
+        System.out.println("最大值"+maxnum);
+        System.out.println("和"+sum);
+        System.out.println("平均值"+avg);*/
+
+    /*String[] a={"sss","aaa","bbbbbb"};
+    //使用Arrays类的sour()方法对数组进行排序
+        Arrays.sort(a);
+        //使用Arrays类的toString（）方法将数组转化为字符串
+        System.out.println(Arrays.toString(a));*/
+
+
+
+   /* int inputArr[]=new int[5];  //定义数组长度为5
+        Scanner input=new Scanner(System.in);
+        System.out.println("输入值");
+        for (int i = 0; i <inputArr.length ; i++) {
+            //把每次输入的值存在数组中的对应位置，不能超过5个
+            inputArr[i]=input.nextInt();
+
+        }
+        //把输入的值升序排序
+        Arrays.sort(inputArr);
+        //用for循环从数组最后面开始遍历取最大的值，依次取到最前面一个，就变成降序
+       int i;
+        for ( i = 4; i >=0 ; i--) {
+          System.out.println(inputArr[i]);
+        }
+        //转化为字符串的形式输出
+       // System.out.println(Arrays.toString(inputArr));
+       */
+
+
+
+   /*int[][] num={{1,2,3},{4,5,6}};
+        for (int i = 0; i <num.length ; i++) {
+            for (int j = 0; j <num[i].length ; j++) {
+                System.out.print(num[i][j]);
+            }
+            System.out.println();
+        }*/
+
+
+   /*int[][] num=new int[3][];
+   num[0]=new int[2];
+   num[1]=new int[3];
+   num[2]=new int[4];
+   num[0][0]=1;
+   num[0][1]=2;
+   //num[0][2]=3;
+   num[1][0]=1;
+   num[1][1]=2;
+   num[1][2]=3;
+   num[2][0]=1;
+   num[2][1]=2;
+   num[2][2]=3;
+   num[2][3]=4;
+        System.out.print(num[0][0]);
+        System.out.println(num[0][1]);
+        System.out.print(num[1][0]);
+        System.out.print(num[1][1]);
+        System.out.println(num[1][2]);
+        System.out.print(num[2][0]);
+        System.out.print(num[2][1]);
+        System.out.print(num[2][2]);
+        System.out.println(num[2][3]);*/
+
+
+   /*String[][] num={{"t","e","f"},{"g","k","s"}};
+
+        for (int i = 0; i <num.length ; i++) {
+
+            for (int j = 0; j <num[0].length ; j++) {
+
+                System.out.print(num[i][j]);
+            }
+            System.out.println();
+        }*/
+
+        one b=new one();
+        b.a();
+
 
     }
+         public void a(){
+            System.out.println("aaaa");
+
+          }
 
     }
 
