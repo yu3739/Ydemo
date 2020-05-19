@@ -1,5 +1,8 @@
 package testone;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * Created by YuZhenni on2020/5/12.
  */
@@ -169,7 +172,6 @@ public class one {
         }*/
 
 
-
         /* int sum=0;
         int i = 1;
         for (; i <=10 ; i++) {
@@ -217,7 +219,8 @@ public class one {
         }while(a<=5);*/
 
 
-       /*//把控制台输入的值获取存到“shuru"里
+       /*
+       //把控制台输入的值获取存到“shuru"里
         Scanner shuru=new Scanner(System.in);
 
         System.out.println("输入");
@@ -378,16 +381,25 @@ public class one {
             System.out.println();
         }*/
 
-        one b=new one();
-        b.a();
-
+      one b=new one();
+       int [] c= b.a(6);
+        System.out.println(Arrays.toString(c));
 
     }
-         public void a(){
-            System.out.println("aaaa");
+         public int[] a(int length ){
+        int[] nums=new int[length];
+             for (int i = 0; i <nums.length ; i++) {
+                       nums [i]=(int)(Math.random()*100);
+             }
+             return nums;
+           //System.out.println("aaaa");
 
           }
 
-    }
 
 
+
+
+
+
+}
